@@ -1,0 +1,23 @@
+.home-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.home-search-div{
+    width: 100%;
+    text-align: center;
+}
+
+.home-search{
+    width: 30vw;
+    height: 30px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px){
+    .home-search{
+        width: 60%;
+    }
+}

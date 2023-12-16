@@ -1,0 +1,143 @@
+.navbar-container{
+    
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.navbar-logo img{
+    height: 20px;
+}
+
+
+
+Link {
+    text-decoration: none;
+}
+
+.navbar-right{
+    display: flex;
+    gap: 20px;
+    
+}  
+
+.navbar-right ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.navbar-right li{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-right button{
+   background-color: #88d317;
+   border: none;
+   height: 30px;
+   width: 80px;
+   text-transform: uppercase;
+}
+
+.navbar-right button:hover{
+    cursor: pointer;
+
+}
+
+.navbar-welcome{
+    color: #88d317;
+}
+
+.navbar-toggle-container{
+    position: absolute;
+    
+    right: 15px;
+    top: 20px;
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.navbar-toggle{
+    
+    height: 3px;
+    width: 25px;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+     .navbar-container{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        background-color: #88D317;
+        box-shadow: 0px 10px 10px #E5E4E2;
+        margin-left: 0px;
+        margin-right: 0px;
+     } 
+
+     .navbar-right{
+        display: none;
+     }
+
+     .navbar-logo img{
+        display: none;
+     }
+
+     .navbar-right.active{
+        display: flex;
+        margin-top: 165px;
+        width: 100vw;
+        flex-direction: column;
+        text-align: center;
+        background-color: #88D317;
+        z-index: 900;
+        box-shadow: 0px 10px 10px #E5E4E2;
+        border-radius: 0px 0px 10px 10px;
+     }
+
+     .navbar-logo{
+        width: 90%;
+        margin-left: 0px;
+     }
+
+     .navbar-logo h1{
+        font-size: large;
+       
+     }
+
+     .navbar-toggle-container{
+        display: flex;
+        flex: 1;
+     }
+
+     .navbar-right.active ul{
+        display: flex;
+        flex-direction: column;
+     }
+
+    
+    
+}

@@ -1,0 +1,123 @@
+.vendor-display-container{
+    width: 80vw;
+    height: fit-content;
+    display: flex;
+    margin: 20px auto;
+    box-shadow: 10px 10px 5px #F5F5F5;
+    border-radius: 10px 10px;
+    border: 5px solid #F5F5F5;
+}
+.vendor-display-left{
+    width: 100%;
+    margin-right: 40px;
+}
+
+.vendor-display-left img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 0px 0px 10px;
+   
+}
+
+.vendor-display-right{
+    
+    
+    margin-top: 35px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+
+.category img{
+    height: 30px;
+    width: 30px;
+}
+
+.vendor-display-right h1{
+    margin-top: 20px;
+}
+
+.vendor-display-right p{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.vendor-display-right .category{
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+
+.vendor-display-right span{
+    align-self: center;
+}
+
+.vendor-description{
+    font-size: 18px;
+}
+
+.vendor-display-right button{
+    align-self: center;
+    width: 200px;
+    height: 40px;
+    margin: 60px 0px 20px 0px;
+    background-color: #88d317;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+@media screen and (max-width:600px){
+    .vendor-display-container{
+       
+        flex-direction: column;
+    }
+
+    .vendor-display-left{
+        height: 50%;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .vendor-display-right{
+        flex: 1;
+        height: 50%;
+       
+        margin: 0px 10px 10px 15px;
+    }
+
+    .vendor-display-left img{
+        
+        border-radius: 10px 10px 0px 0px;
+       
+    }
+
+    .vendor-display-right h1{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .vendor-display-right p{
+        margin-top: 10px;
+        font-size: 15px;
+        
+    }
+    
+    .vendor-display-right .category{
+        margin-top: 10px;
+        font-size: 15px;
+    
+    }
+
+    .category img{
+        height: 25px;
+        width: 25px;
+    }
+   
+    .vendor-display-right button{
+        
+        width: 200px;
+        height: 40px;
+        margin: 20px 0px 10px 0px;
+        
+    }
+}

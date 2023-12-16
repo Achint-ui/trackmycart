@@ -1,0 +1,90 @@
+.home{
+    margin-top: 50px;
+    width: 100vw;
+    color:#88d317
+    
+}
+.input-container{
+    width:max-content;
+    margin: auto;
+    box-shadow: 10px 10px 5px #F5F5F5;
+    border: 2px solid #F5F5F5;
+}
+.input-form{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    border-radius: 10px 10px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+input {
+   width: 10vw;
+   margin: auto;
+   margin-bottom: 20px;
+   border-radius: 3px;
+   
+}
+
+textarea{
+    width: 30vw;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.home-radio input {
+    width: 10px;
+    margin-right: 10px;
+}
+
+.home-radio label{
+    margin-right: 50px;
+}
+
+.submit-btn {
+    width: 200px;
+    height: 40px;
+    background-color: #88d317;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.submit-btn:hover{
+    cursor: pointer;
+}
+
+.input-non{
+    display: flex;
+    align-items: center;
+}
+
+.input-non img{
+    height: 95vh;
+    margin-left: 100px;
+    
+}
+
+.hero-left-text{
+    
+    margin-bottom: 150px;
+    margin-left: 150px;
+    
+}
+
+.hero-left-text h1{
+    color: #88d317;
+    font-size: 70px;
+}
+
+.hero-left-text p{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.hero-left-text p:first-of-type{
+    margin-top: 20px;
+}
